@@ -1,0 +1,96 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css");
+@import url(https://db.onlinewebfonts.com/c/9b057572ee016725c6ffb9554036391d?family=FiraGO+Bold);
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
+
+.coverContainer {
+    width: 100%;
+    height: 626px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 106, 159)), url('../../pictures/shutterstock_627788162@2x.png');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #ee303c;
+}
+
+h1 {
+    width: 700px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 510px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: normal normal normal 48px/64px "BPG LE Studio 02 Caps";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 30px #006A9F;
+    opacity: 1;
+}
+
+h2 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'FiraGO';
+    font-weight: 300;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 470px;
+    left: 90px;
+    opacity: 0.7;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 470px;
+    right: 90px;
+    opacity: 0.7;
+}
+
+.left-arrow:hover {
+    opacity: 1;
+}
+
+.right-arrow:hover {
+    opacity: 1;
+}
+
+.arrow-down-logo {
+    width: 18px;
+    height: 18px;
+    padding-bottom: 30px;
+    cursor: auto;
+}
+
+.buy-online-div {
+    width: 469px;
+    height: 100px;
+    position: absolute;
+    top: 710px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("https://unison.ge/images/buyOnlineBackground.png?104e5fb0b87bd01a242e5ebf231d0b1d");
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 22px/27px var(--unnamed-font-family-firago);
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .indicator{
+    position: absolute;
+    right: 80px;
+    top: 700px;
+} */
