@@ -209,4 +209,31 @@
     .inside-lower-container {
         height: 450px;
     }
+    .card-divs:hover {
+        height: initial;
+        margin-top: initial;
+        background: initial;
+        color: initial;
+    }
+    .sheidzineDiv:hover {
+        background-color: initial;
+    }
+    
+    .card-divs:hover .sheidzineDiv {
+        display: none;
+    }
+    
+    .card-divs:hover .logoes-on-hover {
+        display: none;
+    }
+    
+    .card-divs:hover .logoes {
+        display: initial;
+    }
+    .card-divs:hover {
+        height: initial;
+        margin-top: initial;
+        background-color: initial;
+        color: initial;
+    }
 }
