@@ -1,0 +1,6 @@
+.div-for-everything {
+    max-width: 100%;
+    box-sizing: border-box;
+    background: url(https://unison.ge/images/homePageBackground.png?4e8b6178ab29f480948239da7a4ab10c);
+    background-size: cover;
+}

@@ -8,9 +8,11 @@ import MainComponent from './components/MainComponent/MainComponent';
 function App() {
   return (
     <>
-      <HeaderComponent />
-      <MainComponent/>
-      <FooterComponent/>
+      <div className='media-header'>
+        <HeaderComponent />
+      </div>
+      <MainComponent />
+      <FooterComponent />
     </>
   )
 }

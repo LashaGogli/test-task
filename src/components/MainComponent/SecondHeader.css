@@ -106,6 +106,7 @@ img {
     display: none;
     background-color: white;
     opacity: 1 !important;
+    z-index: 100;
 }
 
 .insideDropDownDiv {
@@ -169,7 +170,6 @@ img {
     background-color: #F2F2F2;
     position: absolute;
     left: 100%;
-    top: 2%;
     display: none;
     background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
     background: #F2F2F2 0% 0% no-repeat padding-box;
@@ -181,11 +181,27 @@ img {
     z-index: 1;
 }
 
+.rightArrowIcon {
+    width: 0;
+    height: 0;
+    border-left: 6.5px solid transparent;
+    border-right: 6.5px solid transparent;
+    border-bottom: 13px solid #D0D0D0;
+    opacity: 1;
+    transform: rotate(90deg);
+    margin-left: 88px;
+    cursor: pointer;
+}
+
 @media (max-width:1400px) {
     .alreadyDropped {
         left: 33%;
         top: 100%;
         border-radius: 0px 0px 12px 12px;
+    }
+
+    .rightArrowIcon {
+        transform: rotate(180deg);
     }
 }
 
@@ -229,17 +245,6 @@ img {
     border-bottom: 13px solid white;
 }
 
-.rightArrowIcon {
-    width: 0;
-    height: 0;
-    border-left: 6.5px solid transparent;
-    border-right: 6.5px solid transparent;
-    border-bottom: 13px solid #D0D0D0;
-    opacity: 1;
-    transform: rotate(90deg);
-    margin-left: 88px;
-    cursor: pointer;
-}
 
 .callToAgent {
     width: 144px;
@@ -270,4 +275,77 @@ img {
 .phoneLogomeore {
     width: 30.13px;
     height: auto;
+}
+
+.unisonis-logo-hoverze {
+    display: none;
+}
+
+.burger-icon {
+    width: auto;
+    height: 25px;
+    display: none;
+    margin-top: 45px;
+}
+
+.upcolor-for-mobile {
+    background-image: linear-gradient(rgba(0, 106, 159, .302), rgba(0, 106, 159, 0));
+    width: 100%;
+    height: 20.02px;
+    /* position: relative;
+    top: 0;
+    z-index: 2; */
+    position: absolute;
+}
+
+@media (max-width:1090px) {
+    .insideLeftContainer {
+        max-width: 700px;
+    }
+}
+
+@media (max-width:1000px) {
+    .insideRighttContainer {
+        display: none;
+    }
+
+    .redPOuterDiv {
+        display: none;
+    }
+
+    .insideLeftContainer {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .mainContainer {
+        background-color: white;
+        position: relative;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    .unisonis-logo-hoverze {
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+
+    .unisonis-logo {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .mainContainer {
+        height: 100px;
+    }
+    .callToAgent{
+        display: none;
+    }
 }

@@ -11,6 +11,7 @@
     max-width: 1300px;
     width: 100%;
     height: 273px;
+    padding-left: 50px;
 }
 
 .shorter-container {
@@ -23,14 +24,13 @@
 }
 
 .zevit-Div {
-    height: 163px;
+
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .qvevit-Div {
-    height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -44,6 +44,9 @@
 .four-divs {
     width: 225px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .footer-logo {
@@ -53,10 +56,20 @@
 
 .four-divs p {
     text-align: left;
-    font: normal normal normal 16px/19px "FiraGO";
+    font: 16px "FiraGO";
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
+}
+
+.footer-logo {
+    margin-bottom: 46px;
+    margin-top: 15px;
+}
+
+.four-divs p:hover {
+    color: #006A9F;
+    text-decoration: underline;
 }
 
 .social-media-div {
@@ -64,9 +77,60 @@
     align-items: center;
     gap: 12px;
 }
-.shavi-logoebis-divi{
+
+.shavi-logoebis-divi {
     visibility: 250px;
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.mobile-footer-container {
+    font-size: 16px;
+    padding: 30px 36px;
+    display: none;
+}
+
+.horizontal-listing {
+    padding-bottom: 10px;
+    text-align: left;
+    color: #707070;
+    font-family: "FiraGo";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.horizontal-list-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    color: #707070;
+    font-family: "FiraGo";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.googleplay-logoebi {
+    display: flex;
+}
+
+.unisonis-uflebebi {
+    color: #707070;
+    font-family: "FiraGo";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width:1000px) {
+    .footer-main-container {
+        display: none;
+    }
+
+    .mobile-footer-container {
+        display: block;
+    }
 }

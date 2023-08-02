@@ -8,14 +8,23 @@ import tipi from "../../pictures/tipis logo.svg"
 import airplain from "../../pictures/airplain.svg"
 import "../MainComponent/SecondHeader.css"
 import phonelogo from "../../pictures/phone logo.svg"
+import burgericon from "../../pictures/burgericon.svg"
 
 
 export default function SecondHeader() {
     return (
         <div className='mainContainer'>
+            <div className='upcolor-for-mobile'></div>
             <div className='insideMainContainer'>
                 <div className='insideLeftContainer'>
-                    <img src={logo} alt='unisonis logo' />
+                    <img
+                        src={logo}
+                        alt='unisonis logo'
+                        className='unisonis-logo' />
+                    <img
+                        src="https://unison.ge/images/Logo.svg?67e6ca38c569dc486c43deaec1c5ba4e"
+                        alt='unisonis logo hoverze'
+                        className='unisonis-logo-hoverze' />
                     <div className='redPOuterDiv'>
                         <p className='redP'>ფიზიკური <br></br>პირებისთვის</p>
                         <div className='redUnderLineP'>
@@ -77,6 +86,10 @@ export default function SecondHeader() {
                 <img src={phonelogo} alt='telefonis logo witel divshi' className='phoneLogomeore' />
                 <p>აგენტთან <br></br>დაკავშირება</p>
             </div>
+            <img
+                src={burgericon}
+                alt='burger icon'
+                className='burger-icon' />
         </div>
     )
 }
