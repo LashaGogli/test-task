@@ -111,6 +111,7 @@
 
 #just-for-mobile{
     display: none;
+
 }
 
 @media (max-width: 1350px) {
@@ -204,9 +205,25 @@
         font-weight: 700
     }
     #just-for-mobile{
-        display: block;
+        display: flex;
     }
     .inside-lower-container {
         height: 450px;
+    }
+    .card-divs:hover .sheidzineDiv {
+        display: none;
+    }
+    .card-divs:hover .logoes-on-hover {
+        display: none;
+    }
+    
+    .card-divs:hover .logoes {
+        display: block;
+    }
+    .card-divs:hover {
+        height: auto;
+        margin-top: 0;
+        background-color:white;
+        color: #707070;
     }
 }
