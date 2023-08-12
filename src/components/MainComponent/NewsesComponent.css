@@ -108,7 +108,8 @@
     border-radius: 0 0 12px 12px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around
+    justify-content: space-around;
+
 }
 
 .siaxle-suratebi {
@@ -144,7 +145,7 @@
 
     .siaxleebis-cardebi {
         width: 277px;
-        height: 260px;
+        /* height: 260px; */
     }
 
     .zeda-div {
@@ -157,8 +158,8 @@
         width: auto;
         height: 100px;
         justify-content: space-around;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .zeda-P {
@@ -170,10 +171,6 @@
         width: 277px;
     }
 
-    /* 
-    .out-container-for-newses {
-        padding-left: 27px;
-    } */
 
     .container-for-newses {
         height: 500px;
@@ -181,7 +178,6 @@
 
     .siaxleebis-cardebi:hover {
         border: 0;
-        /* margin: 0; */
     }
     .siaxleebis-cardebi:hover {
         outline: none;
