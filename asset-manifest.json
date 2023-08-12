@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-task/static/css/main.30b30603.css",
+    "main.css": "/test-task/static/css/main.c021d17f.css",
     "main.js": "/test-task/static/js/main.0c0f8470.js",
     "static/media/shutterstock_627788162@2x.png": "/test-task/static/media/shutterstock_627788162@2x.3c3638e78e390c45932c.png",
     "static/media/Rectangle 2.png": "/test-task/static/media/Rectangle 2.0dbcfb8b9d3b353b44a1.png",
@@ -25,11 +25,11 @@
     "static/media/Right.svg": "/test-task/static/media/Right.16cb1019b54a85b9e998df1e10697f60.svg",
     "static/media/Path 398.svg": "/test-task/static/media/Path 398.3aff844b119259104583bd956f0e83f5.svg",
     "static/media/arrow down.svg": "/test-task/static/media/arrow down.3aff844b119259104583bd956f0e83f5.svg",
-    "main.30b30603.css.map": "/test-task/static/css/main.30b30603.css.map",
+    "main.c021d17f.css.map": "/test-task/static/css/main.c021d17f.css.map",
     "main.0c0f8470.js.map": "/test-task/static/js/main.0c0f8470.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b30603.css",
+    "static/css/main.c021d17f.css",
     "static/js/main.0c0f8470.js"
   ]
 }
