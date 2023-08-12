@@ -183,4 +183,7 @@
         border: 0;
         /* margin: 0; */
     }
+    .siaxleebis-cardebi:hover {
+        outline: none;
+    }
 }
